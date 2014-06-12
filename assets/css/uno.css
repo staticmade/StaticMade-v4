@@ -942,9 +942,10 @@ body {
 
 a {
   text-decoration: none;
-  color: #e25440; }
+  color: #29636e;
+  font-weight: bold; }
   a:hover {
-    color: #b9301c;
+    color: #000;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -1200,7 +1201,7 @@ hr {
   color: #FFF; }
 
 .panel-subtitle {
-  font-family: "Roboto Slab", serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.2em;
   font-weight: lighter;
   letter-spacing: 3px;
@@ -1319,6 +1320,7 @@ hr {
   padding: 10px 20px;
   border: 1px solid #e25440;
   border-radius: 20px;
+  font-family: "Oswald", sans-serif;
   font-size: .9em;
   font-weight: bold;
   letter-spacing: 1px;
