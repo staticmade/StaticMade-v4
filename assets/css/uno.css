@@ -935,10 +935,10 @@ body {
   color: #666666;*/ }
 
 ::selection {
-  background: #fae3df; }
+  background: rgba(14,112,131,0.51); }
 
 ::-moz-selection {
-  background: #fae3df; }
+  background: rgba(14,112,131,0.51); }
 
 a {
   text-decoration: none;
@@ -1054,7 +1054,7 @@ pre {
 .author,
 .tags {
   font-size: .8em;
-  color: #c7c7c7; }
+  color: #333333; }
   .date a,
   .time a,
   .author a,
@@ -1069,7 +1069,7 @@ pre {
 .excerpt {
   margin: 0;
   font-size: .9em;
-  color: #999999; }
+  color: #333333; }
 
 .intro {
   font-family: "Roboto Slab", serif;
@@ -1456,17 +1456,17 @@ i {
   .post-list__post-title a {
     color: #333333; }
     .post-list__post-title a:hover {
-      color: #b9301c; }
+      color: #000; }
 
 .post-list__meta {
   display: block;
   margin: .7em 0 0 0;
   font-size: .9em;
-  color: #c7c7c7; }
+  color: #333333; /*#c7c7c7;*/ }
 
 .post-list__meta--date {
   margin-right: .5em;
-  color: #c7c7c7; }
+  color: #333333; }
 
 .post-list__meta--tags {
   margin-left: .5em; }
