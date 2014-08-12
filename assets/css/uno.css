@@ -1697,3 +1697,19 @@ input[type="tel"] {
   .btn, .navigation__item a {
     display: block;
     margin-bottom: .4em; } }
+    
+#readinglist a {color:#333; text-decoration:none;}
+  #readinglist a:hover {color:#2f7cda;}
+  th {background-color:#2f7cda;}
+  .header { 
+    background-image: url('http://51d.us/arrows.png');     
+    cursor: pointer; 
+    background-repeat: no-repeat; 
+    background-position: center right; 
+    padding-right:10px; 
+    background-origin:content-box!important;
+    margin-left:-1px;
+    border-right:1px solid #eee;
+} 
+  .headerSortUp {background-image: url('http://51d.us/asc.png');}
+  .headerSortDown {background-image: url('http://51d.us/desc.png');}
