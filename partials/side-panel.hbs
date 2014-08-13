@@ -1,4 +1,4 @@
-<header class="panel-cover {{#if post}}panel-cover--collapsed{{/if}}" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+<header class="panel-cover panel-cover--collapsed" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
@@ -18,7 +18,9 @@
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
               <li class="navigation__item"><a href="/#blog" title="Journal" class="blog-button">Journal</a></li>
-              <li class="navigation__item"><a href="/about" title="Colophon" class="blog-button">Colophon</a></li>
+              <!--<li class="navigation__item"><a href="/projects" title="Projects" class="blog-button">Projects</a></li>
+              <li class="navigation__item"><a href="/media-log" title="Media Log" class="blog-button">Media Log</a></li>-->
+              <li class="navigation__item"><a href="/about" title="About" class="blog-button">About</a></li>
             </ul>
           </nav>
 
