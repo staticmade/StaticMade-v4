@@ -1,4 +1,19 @@
 <footer class="footer">
+    
+    <div class="search">
+    	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    	<script src="{{asset "js/jquery.ghostHunter.min.js"}}"></script>
+    	<form style="text-align:left">
+    	<input id="search-field" placeholder="Search..." />
+    	<input type="submit" value="search" style="visibility: hidden;">
+    	</form>
+    	<section id="results" style="text-align:left"></section>
+    	<script>
+    	$("#search-field").ghostHunter({
+        	results   : "#results"
+        });
+    	</script>
+    </div>
     <span class="footer__copyright"> Some Rights Reserved | <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></span>
     
     <script type="text/javascript">
