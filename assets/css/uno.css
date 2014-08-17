@@ -1420,15 +1420,15 @@ nav {
   margin: 0 0 2em 0; }
 
 .pagination__page-number {
-  margin: 0;
+  margin: 1em;
   font-size: .8em;
   color: #999999; }
 
-.pagination__newer {
+ /*.pagination__newer {
   margin-right: 1em; }
 
 .pagination__older {
-  margin-left: 1em; }
+  margin-left: 1em;}*/ 
 
 i {
   font-family: 'entypo';
@@ -1696,7 +1696,8 @@ input[type="tel"] {
 
   .btn, .navigation__item a {
     display: block;
-    margin-bottom: .4em; } }
+    margin-bottom: .4em; } 
+  }
 
 /* READING LIST */
 #readinglist a {color:#333; text-decoration:none;}
