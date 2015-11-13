@@ -1,11 +1,13 @@
 {{!< default}}
 
+  {{!< default}}
+
   <div class="main-post-list">
 
     <ol class="post-list">
       {{#foreach posts}}
       <li>
-      <h2 class="post-list__post-title post-title"><a href="{{url}}" title="{{{title}}}">{{{title}}}</a></h2>
+        <h2><a href="{{url}}" title="link to {{{title}}}">{{{title}}}</a></h2>
         <p class="excerpt">{{excerpt}}&hellip;</p>
         <div class="post-list__meta"><time datetime="{{date format="MMMM Do, YYYY"}}" class="post-list__meta--date date">{{date format="MMMM Do, YYYY"}}</time> &#8226; <span class="post-list__meta--tags tags">{{tags prefix="Filed in "}}</span></div>
         <hr class="post-list__divider" />
@@ -16,3 +18,17 @@
     {{pagination}}
 
   </div>
+
+  <!--<div class="main-post-list">
+
+    <ol class="post-list">
+      {{#foreach posts}}
+      <li>
+        <p><a href="{{url}}" title="link to {{{title}}}">{{{title}}}</a> was published on {{date format="MMMM Do, YYYY"}} and filed in {{tags}}.</p>
+      </li>
+      {{/foreach}}
+    </ol>
+
+    {{pagination}}
+
+  </div>-->
