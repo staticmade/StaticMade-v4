@@ -1002,8 +1002,10 @@ strong {
 
 em {
   font-style: italic; }
+  
+blockquote>p{margin:1.5em -3rem;font-family:"Merriweather", serif; color: #989898; font-size: 1.25em; line-height:1.6em;text-align:center;}
 
-blockquote {
+/*blockquote {
   margin: 1em 0;
   padding: 1em 1em 1em 1em;
   background: #eaedee;
@@ -1013,9 +1015,9 @@ blockquote {
   font-weight: lighter;
   font-style: none;
   font-size: 1em;
-  text-align: left; }
-  blockquote p:last-child {
-    margin-bottom: 0; }
+  text-align: left; }*/
+  /*blockquote p:last-child {
+    margin-bottom: 0; }*/
 
 ol, ul {
   margin: 0 0 1.3em 2.5em; }
