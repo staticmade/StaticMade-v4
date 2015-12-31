@@ -1,26 +1,27 @@
-<header class="panel-cover panel-cover--collapsed" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+<header class="panel-cover {{#if post}}panel-cover--collapsed{{/if}} {{#if code}}panel-cover--collapsed{{/if}}" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
 
-        {{#if @blog.logo}}
+        <!--{{#if @blog.logo}}
         <a href="{{@blog.url}}" title="Static Made"><img src="{{@blog.logo}}" width="80" alt="{{@blog.title}} logo" class="panel-cover__logo logo" /></a>
-        {{/if}}
+        {{/if}}-->
         <h1 class="panel-cover__title panel-title"><a href="{{@blog.url}}" title="{{@blog.title}}">STATIC MADE</a></h1>
         <span class="panel-cover__subtitle panel-subtitle">by Jeffrey Inscho</span>
         <hr class="panel-cover__divider" />
-        <p class="panel-cover__description">I'm a writer, strategist and cultural technologist living in Pittsburgh. My work lives at the intersection of technology, culture, mindfulness and participation.</p>
+        <p class="panel-cover__description">Modern antiquities made with love in the City of Champions</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary" />
 
         <div class="navigation-wrapper">
 
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
+              <li class="navigation__item"><a href="http://staticmade.bigcartel.com" title="Store" class="blog-button">Catalog</a></li>
+              <!--<li class="navigation__item"><a href="/backstory" title="About" class="blog-button">Coming Soon</a></li>
               <li class="navigation__item"><a href="/#blog" title="Posts" class="blog-button">Posts</a></li>
-              <li class="navigation__item"><a href="/projects" title="Projects" class="blog-button">Projects</a></li>
-              <li class="navigation__item"><a href="/about" title="About" class="blog-button">About</a></li>
-              <li class="navigation__item"><a href="#" class="st-search-launcher">Search</a></li>
+              <li class="navigation__item"><a href="#" class="st-search-launcher">Search</a></li>-->
             </ul>
           </nav>
 
