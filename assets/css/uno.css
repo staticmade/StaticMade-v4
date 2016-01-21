@@ -1,5 +1,6 @@
 @import 'http://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)';
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,300");
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -958,7 +959,7 @@ h5,
 h5 {
   margin-top: .8em;
   margin-bottom: .4em;
-  font-family: "Varela Round", sans-serif;
+  font-family: Oswald, sans-serif;
   font-weight: 300;
   color: #333333;
   -webkit-font-smoothing: antialiased; }
@@ -1141,7 +1142,7 @@ pre {
   /*border-radius: 50%;
   border: 1px solid #333;
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);*/
-  padding-bottom: 20px; }
+  padding-bottom: 3em; }
 
 hr {
   border: none; }
@@ -1209,7 +1210,7 @@ hr {
   color: #333333 !important; }
 
 .panel-subtitle {
-  font-family: "Varela Round", sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 1.2em;
   font-weight: lighter;
   letter-spacing: 3px;
@@ -1332,19 +1333,19 @@ hr {
 
 .btn, .navigation__item a {
   padding: 10px 20px;
-  border: 1px solid #e25440;
+  border: 1px solid #000;
   border-radius: 20px;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: .9em;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   text-shadow: none;
   text-transform: uppercase;
-  color: #333333;
+  color: #000;
   -webkit-font-smoothing: antialiased; }
   .btn:hover, .navigation__item a:hover {
-    color: #000;
-    border-color: #000; }
+    color: #e25440;
+    border-color: #e25440; }
 
 .btn-secondary {
   border-color: #5ba4e5;
@@ -1377,8 +1378,8 @@ hr {
   left: 0;
   width: 100%;
   height: 42px;
-  background: #e8e8e8; /*#1c3b43;*/ /*rgba(13, 71, 77, 0.98);*/
-  opacity: 0.4;
+  background: #333; /*#1c3b43;*/ /*rgba(13, 71, 77, 0.98);*/
+  /*opacity: 0.4;*/
   border-bottom: 0px solid rgba(255, 255, 255, 0.1);
   text-align: center; }
 
@@ -1387,7 +1388,7 @@ hr {
   position: relative;
   top: 3px;
   font-size: 36px;
-  color: #000; }
+  color: #fff; }
 
 nav {
   display: inline-block;
@@ -1407,12 +1408,12 @@ nav {
   .navigation__item a {
     display: block;
     position: relative;
-    border-color: #333;
-    color: #333;
+    border-color: #000;
+    color: #000;
     opacity: .8; }
     .navigation__item a:hover {
-      color: #000;
-      border-color: #000;
+      color: #333;
+      border-color: #333;
       opacity: 1; }
 
 .navigation--social {
@@ -1589,7 +1590,7 @@ input[type="tel"] {
     margin-left: 530px; } }
 @media all and (max-width: 1100px) {
   .panel-cover__logo {
-    width: 70px; }
+    width: 75%; }
 
   .panel-title {
     font-size: 2em;
@@ -1643,8 +1644,10 @@ input[type="tel"] {
         display: block;
         padding: 70px 0 30px 0; }
       .panel-cover.panel-cover--collapsed .panel-cover__logo {
-        width: 60px;
-        border-width: 2px; }
+        width: 75%;
+        border-width: 2px;
+        padding-top: 2em;
+        padding-bottom: 1em; }
       .panel-cover.panel-cover--collapsed .panel-cover__description {
         display: none; }
       .panel-cover.panel-cover--collapsed .panel-cover__divider {
@@ -1774,7 +1777,7 @@ border-radius: 12px;
 
 #mc_embed_signup label {display:block; font-family: "Merriweather", serif; font-size:16px; padding-bottom:10px; font-weight:bold;}
 #mc_embed_signup input.email {display:block; font-family: "Merriweather", serif; padding:10px; margin:0 4% 10px 0; text-indent:5px; width:90%; min-width:130px;}
-#mc_embed_signup input.button {display:block; font-family: "Varela Round", sans-serif; font-size: 12px; font-weight: 300; width:25%; margin:0 0 10px 0; min-width:90px;}
+#mc_embed_signup input.button {display:block; font-family: Oswald, sans-serif; font-size: 12px; font-weight: 300; width:25%; margin:0 0 10px 0; min-width:90px;}
 
 #mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
 #mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
